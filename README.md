@@ -53,8 +53,9 @@ Since everything runs locally, you can simply:
 
 Open index.html directly in your browser
 
-/tracker
+
 ```
+/tracker
 │
 ├── index.html        # Main page
 ├── style.css         # Octopath-inspired design
