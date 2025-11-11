@@ -62,6 +62,7 @@ Open tracker.html directly in your browser
 ├── tracker.html      # Main page
 ├── style.css         # Octopath-inspired design
 ├── script.js         # Tracker logic (zones, bosses, saving)
+├── favicon.png       # Web tab icon
 ├── /assets           # Local boss icon images
 └── /data
     └── chests.csv    # Starting CSV
