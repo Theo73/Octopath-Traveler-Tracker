@@ -54,6 +54,7 @@ Since everything runs locally, you can simply:
 Open index.html directly in your browser
 
 /tracker
+```
 │
 ├── index.html        # Main page
 ├── style.css         # Octopath-inspired design
@@ -61,6 +62,8 @@ Open index.html directly in your browser
 ├── /bosses           # Local boss icon images
 └── /data
     └── chests.csv    # Optional starting CSV
+```
+
 
 HTML5, CSS3, Vanilla JS
 Uses LocalStorage for persistent progress
