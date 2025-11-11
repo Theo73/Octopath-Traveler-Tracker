@@ -57,12 +57,12 @@ Open index.html directly in your browser
 ```
 /tracker
 │
-├── index.html        # Main page
+├── tracker.html      # Main page
 ├── style.css         # Octopath-inspired design
 ├── script.js         # Tracker logic (zones, bosses, saving)
-├── /bosses           # Local boss icon images
+├── /assets           # Local boss icon images
 └── /data
-    └── chests.csv    # Optional starting CSV
+    └── chest.csv    # Starting CSV
 ```
 
 
@@ -70,8 +70,10 @@ HTML5, CSS3, Vanilla JS
 Uses LocalStorage for persistent progress
 No frameworks, no dependencies — 100% standalone
 
-Credits
+Credits :
 
 Developed by Theo73 alias ShIIro
+
 Inspired by Octopath Traveler © Square Enix / Acquire
+
 This project is fan-made and non-commercial
