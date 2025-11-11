@@ -37,7 +37,7 @@ Once imported, zones and regions are automatically created inside the tracker.
 
 ## ⚔️ Boss Tracker
 
-Each traveler (Olberic, Tressa, Cyrus, Primrose, Ophilia, Alfyn, Therion, H’annit) has **4 boss icons**, and the **Extra** category has **5**.  
+Each traveler (Olberic, Cyrus, Tressa, Ophilia, Primrose, Alfyn, Therion, H’annit) has **4 boss icons**, and the **Extra** category has **5**.  
 
 When clicked, icons toggle between grayed-out (not defeated) and bright (defeated).
 Your boss progress is also stored locally.
