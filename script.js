@@ -42,7 +42,7 @@ function saveBosses(){
 
 /* Gestion des selects */
 function populateRegions(){
-  regionSelect.innerHTML='<option value="">-- Sélectionne une région --</option>';
+  regionSelect.innerHTML='<option value="">-- Select a region --</option>';
   Object.keys(zoneData).forEach(r => {
     const opt=document.createElement("option");
     opt.value=r; opt.textContent=r;
@@ -52,7 +52,7 @@ function populateRegions(){
 
 function populateZones(){
   const region=regionSelect.value;
-  zoneSelect.innerHTML='<option value="">-- Sélectionne une zone --</option>';
+  zoneSelect.innerHTML='<option value="">-- Select a zone --</option>';
   if(region && zoneData[region]){
     Object.keys(zoneData[region]).forEach( z => {
       const opt = document.createElement("option");
