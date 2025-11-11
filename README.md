@@ -26,7 +26,9 @@ Region|Zone|Chest Description
 
 Example:
 Cliftlands|Bolderfall|Right of the Inn
+
 Coastlands|Grandport|Back of the Bazaar, left chest
+
 Sunlands|Marsalim|Behind the throne inside the palace
 
 Once imported, zones and regions are automatically created inside the tracker.
