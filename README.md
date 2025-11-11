@@ -1,6 +1,6 @@
 # 🧭 Octopath Traveler Tracker
 
-A lightweight **local web tracker** designed for **Octopath Traveler 1**, helping players track every **treasure chest** and **boss** in the game for 100% / All success or randomizer.  
+A lightweight **local web tracker** designed for **Octopath Traveler 1**, helping players track every **treasure chest** and **boss** in the game for 100%, All success or randomizer.  
 No server, no login — everything is saved **locally in your browser**.
 
 ---
