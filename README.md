@@ -12,7 +12,7 @@ No server, no login — everything is saved **locally in your browser**.
 - 📂 **CSV import/export** for adding or sharing chest lists  
 - 💾 **Local autosave** (progress is saved automatically in your browser)  
 - ⬆️ **Manual save export/import** for backups or sharing progress  
-- ⚔️ **Boss tracker** for each of the 8 travelers + an “Extra” category  
+- ⚔️ **Boss tracker** for each of the 8 travelers + an “Extra” category for Super Bosses and Final Boss 
 - 🖼️ Custom boss icons (stored locally)  
 - 🕹️ Works fully **offline**
 
@@ -51,7 +51,7 @@ Import Save → restores progress from a saved file
 
 Since everything runs locally, you can simply:
 
-Open index.html directly in your browser
+Open tracker.html directly in your browser
 
 
 ```
