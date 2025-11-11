@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tracker Octopath Traveler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Tracker Octopath Traveler</h1>
+  </header>
+
+  <main class="container">
+    <!-- SECTION COFFRES -->
+    <section id="coffres-section">
+      <h2>Coffres</h2>
+      <div class="controls">
+        <label for="regionSelect">Choisir une région :</label>
+        <select id="regionSelect">
+          <option value="">-- Sélectionne une région --</option>
+        </select>
+
+        <label for="zoneSelect">Choisir une zone :</label>
+        <select id="zoneSelect">
+          <option value="">-- Sélectionne une zone --</option>
+        </select>
+
+        <div class="buttons">
+          <input type="file" id="csvInput" accept=".csv" style="display:none" />
+          <button id="btnImportCsv">Importer CSV</button>
+          <button id="btnResetZone">Réinitialiser zone</button>
+          <button id="btnResetAll">Réinitialiser tout</button>
+          <button id="btnExportSave">Exporter la progression</button>
+          <button id="btnImportSave">Importer la progression</button>
+          <input type="file" id="importSaveFile" accept=".json" style="display:none" />
+        </div>
+      </div>
+
+      <ul id="coffresContainer" class="checklist"></ul>
+    </section>
+
+    <hr />
+
+    <!-- SECTION BOSS -->
+    <section id="boss-section">
+      <h2>Boss Tracker</h2>
+      <div id="bossContainer" class="boss-grid"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

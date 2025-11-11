@@ -1,0 +1,131 @@
+/* === Font OT style === */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+body {
+  font-family: 'Uncial Antiqua', serif;
+  background: #1c1c1c;
+  color: #f5f0e6;
+  margin: 0;
+  padding: 2rem;
+}
+
+/* === Container principal === */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #2f2b24; /* fond cuir sombre */
+  border: 4px solid #b48c4a; /* bordure dorée */
+  border-radius: 12px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.7), 0 6px 12px rgba(0,0,0,0.5);
+  padding: 2rem;
+}
+
+/* === Titres === */
+h1, h2 {
+  text-align: center;
+  color: #f5e1b4;
+  text-shadow: 2px 2px 0 #000;
+  margin-bottom: 1rem;
+}
+
+/* === Select et boutons === */
+select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 2px solid #b48c4a;
+  border-radius: 6px;
+  background: #3c362e;
+  color: #f5f0e6;
+  text-shadow: 1px 1px #000;
+}
+
+button {
+  padding: 0.5rem 0.7rem;
+  border: 2px solid #b48c4a;
+  border-radius: 6px;
+  background: #3c362e;
+  color: #f5f0e6;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px #000;
+  transition: all 0.2s ease;
+}
+button:hover {
+  background: #4b412f;
+  box-shadow: 0 0 6px #b48c4a;
+}
+
+/* === Coffres === */
+ul.checklist {
+  list-style: none;
+  padding: 0;
+}
+ul.checklist li {
+  padding: 0.6rem 0.5rem;
+  border: 2px solid #b48c4a;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+  background: #3c362e;
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.5);
+  font-family: sans-serif;
+}
+label {
+  flex: 1;
+  margin-left: 0.5rem;
+}
+
+/* === Boss Tracker === */
+.boss-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.boss-card {
+  text-align: center;
+  background: #3c362e;
+  border: 2px solid #b48c4a;
+  border-radius: 10px;
+  padding: 0.8rem;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.boss-name {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #f5e1b4;
+  text-shadow: 1px 1px #000;
+}
+
+.boss-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.boss-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  filter: grayscale(100%) opacity(0.4);
+  border: 2px solid #8c5e2b;
+  background: #3c362e;
+}
+
+.boss-icon.active {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.05);
+  border-color: #ffd700;
+  box-shadow: 0 0 8px rgba(255,215,0,0.8);
+}
